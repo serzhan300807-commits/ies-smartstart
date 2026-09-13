@@ -1,0 +1,1598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="IES SmartStart — discover IES, explore your contribution and find official programme information."
+  >
+
+  <title>IES SmartStart</title>
+
+<link
+  rel="icon"
+  href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231a1a1a'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-size='36' fill='white' font-family='Arial'%3EI%3C/text%3E%3C/svg%3E"
+>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Skip link -->
+  <a class="skip-link" href="#main" data-i18n="skip">
+    Skip to content
+  </a>
+
+  <noscript>
+    <p class="noscript-note">
+      Enable JavaScript for the self-check, FAQ and language switcher.
+      Programme information and official links remain available.
+    </p>
+  </noscript>
+
+
+  <!-- =========================================
+       NAVIGATION
+  ========================================== -->
+
+  <header class="navbar">
+
+    <div class="nav-container">
+
+      <a href="#home" class="logo">
+        <span class="logo-mark">I</span>
+
+        <span>
+          IES <strong>SmartStart</strong>
+        </span>
+      </a>
+
+
+      <nav
+        class="nav-links"
+        id="mainNav"
+        aria-label="Main navigation"
+        data-i18n-aria="navigation"
+      >
+
+        <a
+          href="#home"
+          class="nav-link active"
+          data-i18n="navHome"
+        >
+          Home
+        </a>
+
+        <a
+          href="#discover"
+          class="nav-link"
+          data-i18n="navDiscover"
+        >
+          Discover IES
+        </a>
+
+        <a
+          href="#self-check"
+          class="nav-link"
+          data-i18n="navSelfCheck"
+        >
+          Self-Check
+        </a>
+
+        <a
+          href="#assistant"
+          class="nav-link"
+          data-i18n="navAssistant"
+        >
+          FAQ Assistant
+        </a>
+
+      </nav>
+
+
+      <!-- Language switcher -->
+
+      <div
+        class="lang-switcher"
+        role="group"
+        aria-label="Language"
+        data-i18n-aria="language"
+      >
+
+        <button
+          type="button"
+          class="lang-btn"
+          data-language="en"
+          lang="en"
+          aria-label="English"
+          aria-pressed="true"
+        >
+          EN
+        </button>
+
+        <button
+          type="button"
+          class="lang-btn"
+          data-language="de"
+          lang="de"
+          aria-label="Deutsch"
+          aria-pressed="false"
+        >
+          DE
+        </button>
+
+        <button
+          type="button"
+          class="lang-btn"
+          data-language="ru"
+          lang="ru"
+          aria-label="Русский"
+          aria-pressed="false"
+        >
+          RU
+        </button>
+
+      </div>
+
+
+      <button
+        type="button"
+        class="nav-cta"
+        data-scroll="self-check"
+        data-i18n="navCta"
+      >
+        Start now
+      </button>
+
+
+      <button
+        type="button"
+        class="mobile-menu"
+        id="mobileMenu"
+        aria-controls="mainNav"
+        aria-expanded="false"
+        aria-label="Menu"
+      >
+        ☰
+      </button>
+
+    </div>
+
+  </header>
+
+
+
+  <!-- =========================================
+       MAIN
+  ========================================== -->
+
+  <main id="main">
+
+
+    <!-- =========================================
+         HERO
+    ========================================== -->
+
+<section id="home" class="hero section hero-v2">
+
+  <div class="hero-content">
+
+    <div class="eyebrow hero-eyebrow">
+      <span class="hero-eyebrow-dot"></span>
+      INTERNATIONAL EXCELLENCE SCHOLARSHIP
+    </div>
+
+    <h1 data-i18n="heroTitle">
+      Your first step <span>towards IES.</span>
+    </h1>
+
+    <p class="hero-description" data-i18n="heroDesc">
+      Discover the International Excellence Scholarship,
+      explore what you can contribute and find your next step.
+    </p>
+
+    <div class="hero-buttons">
+
+      <button
+        type="button"
+        class="primary-btn"
+        data-scroll="self-check"
+        data-i18n="heroBtn1"
+      >
+        Start Self-Check →
+      </button>
+
+      <button
+        type="button"
+        class="secondary-btn"
+        data-scroll="discover"
+        data-i18n="heroBtn2"
+      >
+        Discover IES
+      </button>
+
+    </div>
+
+    <div class="hero-proof" aria-hidden="true">
+
+      <div class="proof-item">
+        <strong>EN · DE · RU</strong>
+        <span>Multilingual</span>
+      </div>
+
+      <div class="proof-item">
+        <strong>Responsive</strong>
+        <span>Desktop + Mobile</span>
+      </div>
+
+      <div class="proof-item">
+        <strong>Browser-based</strong>
+        <span>Local progress</span>
+      </div>
+
+    </div>
+
+    <p class="hero-note" data-i18n="heroNote">
+      Independent student prototype · Not an official IES website
+    </p>
+
+  </div>
+
+
+  <div class="hero-product-stage" aria-hidden="true">
+
+    <div class="hero-glow"></div>
+
+    <div class="hero-product-card">
+
+      <div class="product-topbar">
+
+        <div class="product-brand">
+          <span class="product-brand-mark">I</span>
+          <strong>IES SmartStart</strong>
+        </div>
+
+        <div class="product-languages">
+          <span class="active">EN</span>
+          <span>DE</span>
+          <span>RU</span>
+        </div>
+
+      </div>
+
+      <div class="product-body">
+
+        <div class="product-step-row">
+
+          <span class="product-label" data-i18n="checkLabel">
+            03 — SELF-CHECK
+          </span>
+
+          <strong>1 / 3</strong>
+
+        </div>
+
+        <h3 data-i18n="checkTitle">
+          Explore your <span>possible contribution.</span>
+        </h3>
+
+        <p class="product-description" data-i18n="checkDesc">
+          A short orientation tool to help you reflect on your
+          interests and possible contribution.
+        </p>
+
+        <div class="product-options">
+
+          <div class="product-option selected">
+            <span class="product-check">✓</span>
+            <span data-i18n="skill1">IT & Technology</span>
+          </div>
+
+          <div class="product-option">
+            <span class="product-check"></span>
+            <span data-i18n="skill2">Research</span>
+          </div>
+
+          <div class="product-option">
+            <span class="product-check"></span>
+            <span data-i18n="skill3">Data Analysis</span>
+          </div>
+
+          <div class="product-option">
+            <span class="product-check"></span>
+            <span data-i18n="skill5">Communication</span>
+          </div>
+
+        </div>
+
+        <div class="product-progress">
+
+          <div class="product-progress-text">
+            <span>Step 1</span>
+            <span>33%</span>
+          </div>
+
+          <div class="product-progress-track">
+            <span></span>
+          </div>
+
+        </div>
+
+        <div class="product-next" data-i18n="btnContinue">
+          Continue →
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="hero-float-card hero-float-top">
+      <span class="float-dot"></span>
+
+      <div>
+        <strong>3 languages</strong>
+        <small>One experience</small>
+      </div>
+    </div>
+
+    <div class="hero-float-card hero-float-bottom">
+      <span class="float-symbol">✓</span>
+
+      <div>
+        <strong>Student focused</strong>
+        <small>Clear first orientation</small>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+    <!-- =========================================
+         01 — DISCOVER
+    ========================================== -->
+
+<section id="discover" class="section discover-v2">
+
+  <div class="discover-top">
+
+    <div>
+      <span class="section-label" data-i18n="discLabel">
+        01 — DISCOVER
+      </span>
+
+      <h2 data-i18n="discTitle">
+        More than an <span>exchange.</span>
+      </h2>
+    </div>
+
+    <p class="discover-intro" data-i18n="discDesc">
+      The International Excellence Scholarship combines university
+      study in Germany with community engagement at Copernicus Berlin.
+    </p>
+
+  </div>
+
+<div class="discover-photo">
+  <img
+    src="images/berlin.jpg"
+    alt=""
+    loading="lazy"
+    decoding="async"
+  >
+</div>
+  <div class="discover-grid">
+
+    <article class="discover-card">
+
+      <div class="discover-icon discover-icon-blue">
+        <span aria-hidden="true">◎</span>
+      </div>
+
+      <div>
+        <span class="discover-number">01</span>
+
+        <h3 data-i18n="feat1Title">
+          Explore
+        </h3>
+
+        <p data-i18n="feat1Desc">
+          Discover an international academic environment
+          and broaden your perspective.
+        </p>
+      </div>
+
+    </article>
+
+
+    <article class="discover-card discover-card-featured">
+
+      <div class="discover-icon discover-icon-light">
+        <span aria-hidden="true">✦</span>
+      </div>
+
+      <div>
+        <span class="discover-number">02</span>
+
+        <h3 data-i18n="feat2Title">
+          Connect
+        </h3>
+
+        <p data-i18n="feat2Desc">
+          Become part of a community with different academic,
+          professional and cultural backgrounds.
+        </p>
+      </div>
+
+    </article>
+
+
+    <article class="discover-card">
+
+      <div class="discover-icon discover-icon-green">
+        <span aria-hidden="true">↗</span>
+      </div>
+
+      <div>
+        <span class="discover-number">03</span>
+
+        <h3 data-i18n="feat3Title">
+          Contribute
+        </h3>
+
+        <p data-i18n="feat3Desc">
+          Share your knowledge, skills, ideas,
+          creativity and commitment.
+        </p>
+      </div>
+
+    </article>
+
+  </div>
+
+
+  <div class="discover-statement">
+
+    <div class="statement-mark">
+      “
+    </div>
+
+    <div>
+      <p data-i18n="quoteText">
+        IES goes beyond a traditional exchange semester.
+        Community engagement is an integral part of the programme.
+      </p>
+
+      <span data-i18n="quoteAuthor">
+        — Summary of the IES Skills Challenge brief
+      </span>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+    <!-- =========================================
+         02 — CONTRIBUTION
+    ========================================== -->
+
+<!-- ==============================
+     02 — CONTRIBUTION
+============================== -->
+
+<section class="section skills-section skills-v2">
+
+  <div class="skills-layout">
+
+    <div class="skills-copy">
+
+      <span class="section-label" data-i18n="skillsLabel">
+        02 — CONTRIBUTE
+      </span>
+
+      <h2 data-i18n="skillsTitle">
+        Your skills can become
+        <span>your contribution.</span>
+      </h2>
+
+      <p data-i18n="skillsDesc">
+        There are many ways to participate
+        in an international community.
+      </p>
+
+      <div class="skills-note">
+        <span class="skills-note-line"></span>
+
+        <p>
+          Different backgrounds.<br>
+          Different strengths.<br>
+          One shared community.
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="skills-cloud">
+
+      <div class="skill-chip">
+        <span class="skill-icon">&lt;/&gt;</span>
+        <span data-i18n="skill1">IT & Technology</span>
+      </div>
+
+      <div class="skill-chip">
+        <span class="skill-icon">⌕</span>
+        <span data-i18n="skill2">Research</span>
+      </div>
+
+      <div class="skill-chip">
+        <span class="skill-icon">▥</span>
+        <span data-i18n="skill3">Data Analysis</span>
+      </div>
+
+      <div class="skill-chip">
+        <span class="skill-icon">◇</span>
+        <span data-i18n="skill4">Design</span>
+      </div>
+
+      <div class="skill-chip">
+        <span class="skill-icon">◌</span>
+        <span data-i18n="skill5">Communication</span>
+      </div>
+
+      <div class="skill-chip">
+        <span class="skill-icon">@</span>
+        <span data-i18n="skill6">Social Media</span>
+      </div>
+
+      <div class="skill-chip">
+        <span class="skill-icon">▶</span>
+        <span data-i18n="skill7">Video Production</span>
+      </div>
+
+      <div class="skill-chip">
+        <span class="skill-icon">□</span>
+        <span data-i18n="skill8">Events</span>
+      </div>
+
+      <div class="skill-chip">
+        <span class="skill-icon">✓</span>
+        <span data-i18n="skill9">Project Management</span>
+      </div>
+
+      <div class="skill-chip">
+        <span class="skill-icon">↗</span>
+        <span data-i18n="skill10">Sustainability</span>
+      </div>
+
+      <div class="skill-chip">
+        <span class="skill-icon">∞</span>
+        <span data-i18n="skill11">Partnerships</span>
+      </div>
+
+      <div class="skill-chip skill-chip-accent">
+        <span class="skill-icon">+</span>
+        <span data-i18n="skill12">Your own field</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+    <!-- =========================================
+         03 — SELF-CHECK
+    ========================================== -->
+
+    <section
+      id="self-check"
+      class="section selfcheck-v2"    >
+
+      <div class="section-header">
+
+        <span
+          class="section-label"
+          data-i18n="checkLabel"
+        >
+          03 — SELF-CHECK
+        </span>
+
+
+        <h2 data-i18n="checkTitle">
+          Explore your
+          <span>possible contribution.</span>
+        </h2>
+
+
+        <p data-i18n="checkDesc">
+          A short orientation tool to help you reflect
+          on your interests and possible contribution.
+        </p>
+
+      </div>
+
+
+      <div class="checker-wrapper">
+
+
+        <!-- Progress -->
+
+        <div class="progress-container">
+
+          <div class="progress-top">
+
+            <span id="questionCounter">
+              Question 1 of 3
+            </span>
+
+            <span id="progressPercent">
+              33%
+            </span>
+
+          </div>
+
+
+          <div
+            class="progress-bar"
+            role="progressbar"
+            aria-label="Self-check progress"
+            data-i18n-aria="progress"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="33"
+          >
+
+            <div
+              class="progress-fill"
+              id="progressFill"
+            ></div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Question rendered by JavaScript -->
+
+        <div
+          id="questionContainer"
+          class="question-container"
+          aria-describedby="checkNotice"
+        ></div>
+
+
+        <!-- Navigation -->
+
+        <div class="checker-navigation">
+
+          <button
+            type="button"
+            id="previousBtn"
+            class="secondary-btn"
+            data-action="previousQuestion"
+            data-i18n="btnBack"
+          >
+            ← Back
+          </button>
+
+
+          <button
+            type="button"
+            id="nextBtn"
+            class="primary-btn"
+            data-action="nextQuestion"
+            data-i18n="btnContinue"
+          >
+            Continue →
+          </button>
+
+        </div>
+
+
+        <!-- Notice -->
+
+        <p
+          id="checkNotice"
+          role="alert"
+        ></p>
+
+
+        <p
+          class="disclaimer"
+          data-i18n="disclaimer"
+        >
+          This self-check is an orientation tool.
+          It does not determine official IES eligibility.
+        </p>
+
+
+        <p
+          class="disclaimer"
+          data-i18n="storageNote"
+        >
+          Answers and language are saved only in this browser
+          when storage is available.
+          “Start again” clears your self-check answers.
+        </p>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         SELF-CHECK RESULT
+    ========================================== -->
+
+    <section
+      id="result"
+      class="section result-section result-v2 hidden"    >
+
+      <div class="result-card">
+
+
+        <div
+          class="result-icon"
+          aria-hidden="true"
+        >
+          ✦
+        </div>
+
+
+        <span
+          class="section-label"
+          data-i18n="resLabel"
+        >
+          POSSIBLE DIRECTIONS
+        </span>
+
+
+        <h2
+          id="resultTitle"
+          tabindex="-1"
+        ></h2>
+
+
+        <p id="resultDescription"></p>
+
+
+        <ul id="resultIdeas"></ul>
+
+
+        <div
+          class="result-tags"
+          id="resultTags"
+        ></div>
+
+
+        <p
+          class="disclaimer"
+          data-i18n="resultBasis"
+        >
+          Suggestions use your selected interests and contributions.
+          Motivations appear as reflection tags.
+          This is not a skills assessment or an admission decision.
+        </p>
+
+
+        <section id="personalSteps" class="personal-steps" aria-labelledby="personalStepsTitle">
+          <div class="personal-steps-heading">
+            <h3 id="personalStepsTitle"></h3>
+            <span id="personalStepsCount" role="status" aria-live="polite" aria-atomic="true"></span>
+          </div>
+          <p id="personalStepsNote" class="personal-steps-note"></p>
+          <progress id="personalStepsProgress" max="3" value="0" aria-labelledby="personalStepsTitle personalStepsCount"></progress>
+          <ul id="personalStepsList" class="personal-steps-list"></ul>
+          <p id="personalStepsDone" class="personal-steps-done" role="status"></p>
+          <p id="personalStepsStorage" class="personal-steps-storage"></p>
+        </section>
+
+        <button
+          type="button"
+          class="secondary-btn"
+          data-action="resetCheck"
+          data-i18n="reset"
+        >
+          Start again
+        </button>
+
+
+        <div class="result-next">
+
+          <div>
+
+            <span
+              class="small-label"
+              data-i18n="resNextSub"
+            >
+              SUGGESTED NEXT STEP
+            </span>
+
+            <h3 data-i18n="resNextTitle">
+              Explore how your skills could contribute
+              to an international community.
+            </h3>
+
+          </div>
+
+
+          <button
+            type="button"
+            class="primary-btn"
+            data-scroll="assistant"
+            data-i18n="resBtn"
+          >
+            Ask FAQ Assistant →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         04 — FAQ ASSISTANT
+    ========================================== -->
+
+    <section
+      id="assistant"
+class="section assistant-section assistant-v2"    >
+
+
+      <div class="assistant-intro">
+
+        <span
+          class="section-label"
+          data-i18n="aiLabel"
+        >
+          04 — FAQ ASSISTANT
+        </span>
+
+
+        <h2 data-i18n="aiTitle">
+          Ask.
+          <span>Explore.</span>
+        </h2>
+
+
+        <p data-i18n="aiDesc">
+          Get a starting point for your questions about IES
+          and your possible contribution.
+        </p>
+
+
+        <div
+          class="ai-badge"
+          data-i18n="aiBadge"
+        >
+          PREWRITTEN ANSWERS
+        </div>
+
+      </div>
+
+
+
+      <!-- Chat -->
+
+      <div class="chat-wrapper">
+
+
+        <div class="chat-header">
+
+          <div
+            class="assistant-avatar"
+            aria-hidden="true"
+          >
+            ✦
+          </div>
+
+
+          <div>
+
+            <strong data-i18n="chatName">
+              IES FAQ Assistant
+            </strong>
+
+            <span data-i18n="chatSub">
+              Local FAQ prototype · No AI model connected
+            </span>
+
+          </div>
+
+
+          <div
+            class="online-status"
+            data-i18n="chatDemo"
+          >
+            Demo
+          </div>
+
+        </div>
+
+
+        <div
+          class="chat-messages"
+          id="chatMessages"
+          role="log"
+          aria-live="polite"
+          aria-relevant="additions"
+          aria-label="FAQ conversation"
+          data-i18n-aria="conversation"
+        ></div>
+
+
+
+        <!-- Suggested questions -->
+
+        <div class="suggested-questions">
+
+          <button
+            type="button"
+            data-question="q1"
+            data-i18n="q1"
+          >
+            What is IES?
+          </button>
+
+
+          <button
+            type="button"
+            data-question="q2"
+            data-i18n="q2"
+          >
+            What can I contribute?
+          </button>
+
+
+          <button
+            type="button"
+            data-question="q3"
+            data-i18n="q3"
+          >
+            I'm an engineering student
+          </button>
+
+
+          <button
+            type="button"
+            data-question="q4"
+            data-i18n="q4"
+          >
+            What should I do next?
+          </button>
+
+        </div>
+
+
+
+        <!-- FAQ input -->
+
+        <form
+          class="chat-input"
+          id="chatForm"
+        >
+
+          <input
+            type="text"
+            id="chatInput"
+            maxlength="500"
+            autocomplete="off"
+            aria-label="Question about IES"
+            placeholder="Ask something about IES..."
+            data-i18n-placeholder="chatPlaceholder"
+          >
+
+
+          <button
+            type="submit"
+            aria-label="Send question"
+          >
+            →
+          </button>
+
+        </form>
+
+      </div>
+
+
+
+      <a
+        class="official-link"
+        href="https://copernicusberlin.org/ies"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-i18n="finalCtaBtn"
+      >
+        Visit official IES page ↗
+      </a>
+
+    </section>
+
+
+
+    <!-- =========================================
+         05 — RESPONSIBLE TECHNOLOGY
+    ========================================== -->
+
+<section
+  id="responsible"
+  class="section responsible-v2"
+>
+
+      <div class="section-header">
+
+        <span
+          class="section-label"
+          data-i18n="respLabel"
+        >
+          05 — RESPONSIBLE TECHNOLOGY
+        </span>
+
+
+        <h2 data-i18n="respTitle">
+          Responsible
+          <span>by design.</span>
+        </h2>
+
+
+        <p data-i18n="respDesc">
+          This prototype uses prewritten FAQ responses and browser-only storage.
+          The same safeguards would matter in any future AI version.
+        </p>
+
+      </div>
+
+
+
+      <div class="risk-grid">
+
+
+        <!-- Risk 1 -->
+
+        <article class="risk-card">
+
+          <div
+            class="risk-icon"
+            aria-hidden="true"
+          >
+            !
+          </div>
+
+
+          <h3 data-i18n="risk1Title">
+            Incorrect information
+          </h3>
+
+
+          <p data-i18n="risk1Desc">
+            A future AI version could provide outdated
+            or inaccurate programme information.
+          </p>
+
+
+          <div class="solution">
+
+            <strong data-i18n="solText">
+              Solution
+            </strong>
+
+            <span data-i18n="risk1Sol">
+              Use verified IES information
+              as the primary knowledge source.
+            </span>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- Risk 2 -->
+
+        <article class="risk-card">
+
+          <div
+            class="risk-icon"
+            aria-hidden="true"
+          >
+            ?
+          </div>
+
+
+          <h3 data-i18n="risk2Title">
+            AI hallucinations
+          </h3>
+
+
+          <p data-i18n="risk2Desc">
+            A future AI version could present suggestions
+            as if they were official requirements.
+          </p>
+
+
+          <div class="solution">
+
+            <strong data-i18n="solText">
+              Solution
+            </strong>
+
+            <span data-i18n="risk2Sol">
+              Clearly distinguish guidance
+              from official information.
+            </span>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- Risk 3 -->
+
+        <article class="risk-card">
+
+          <div
+            class="risk-icon"
+            aria-hidden="true"
+          >
+            🔒
+          </div>
+
+
+          <h3 data-i18n="risk3Title">
+            Privacy
+          </h3>
+
+
+          <p data-i18n="risk3Desc">
+            Applicants may accidentally share
+            unnecessary personal information.
+          </p>
+
+
+          <div class="solution">
+
+            <strong data-i18n="solText">
+              Solution
+            </strong>
+
+            <span data-i18n="risk3Sol">
+              Minimise data collection
+              and avoid unnecessary personal data.
+            </span>
+
+          </div>
+
+        </article>
+
+      </div>
+
+
+
+      <div class="responsible-statement">
+
+        <span aria-hidden="true">
+          ✦
+        </span>
+
+        <strong data-i18n="respStatement">
+          Technology should support the applicant —
+          not replace reliable human communication.
+        </strong>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         06 — CAMPAIGN ANALYSIS
+    ========================================== -->
+
+    <section
+      id="campaign-analysis"
+      class="section analysis-v2"    >
+
+      <div class="section-header">
+
+        <span
+          class="section-label"
+          data-i18n="analysisLabel"
+        >
+          06 — ANALYSIS
+        </span>
+
+
+        <h2 data-i18n="analysisTitle">
+          Understanding campaign performance
+        </h2>
+
+
+        <p data-i18n="analysisDisclaimer">
+          Illustrative data only —
+          not actual IES campaign results.
+        </p>
+
+      </div>
+
+
+
+      <!-- MATLAB chart -->
+
+      <figure class="analysis-figure">
+
+        <div
+          class="analysis-image-scroll"
+          tabindex="0"
+          role="group"
+          aria-label="Campaign analysis chart"
+          data-i18n-aria="analysisChartLabel"
+        >
+
+          <img
+            id="analysisImage"
+            src="IES_Campaign_Analysis_EN.png"
+            alt="Comparison of sample campaign impressions, click-through rates, applications and conversion rates across three channels."
+            data-i18n-alt="analysisImageAlt"
+            loading="lazy"
+            decoding="async"
+          >
+
+        </div>
+
+
+        <figcaption
+          class="analysis-mobile-hint"
+          data-i18n="analysisMobileHint"
+        >
+          On smaller screens, scroll sideways
+          to inspect the chart in detail.
+        </figcaption>
+
+      </figure>
+
+
+
+      <!-- Analysis description -->
+
+      <div class="analysis-content">
+
+        <h3 data-i18n="analysisFindingsTitle">
+          Key findings
+        </h3>
+
+
+        <p data-i18n="analysisFindingsText">
+          In this sample, Instagram generates the most impressions (5,000),
+          university email produces the most completed applications (27),
+          and student communities achieve the highest
+          click-to-application conversion (16%).
+        </p>
+
+
+        <h3 data-i18n="analysisMeaningTitle">
+          What this means
+        </h3>
+
+
+        <p data-i18n="analysisMeaningText">
+          More impressions do not necessarily lead to more applications.
+          A recruitment team should compare both application volume
+          and conversion rates when evaluating communication channels.
+        </p>
+
+
+        <p data-i18n="analysisLimitText">
+          These illustrative results do not establish real channel performance.
+          Campaign costs and applicant suitability would also be needed
+          before making budget decisions.
+        </p>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         07 — NEXT STEPS
+    ========================================== -->
+
+    <section
+      id="next-steps"
+      class="section next-section next-v2"    >
+
+      <div class="next-content">
+
+        <span
+          class="section-label"
+          data-i18n="nextLabel"
+        >
+          07 — NEXT STEPS
+        </span>
+
+
+        <h2 data-i18n="nextTitle">
+          Ready for your
+          <span>next step?</span>
+        </h2>
+
+
+        <p data-i18n="nextDesc">
+          SmartStart guides students from their first question
+          towards reliable official information.
+        </p>
+
+      </div>
+
+
+
+      <!-- Journey -->
+
+      <div class="journey">
+
+
+        <div class="journey-step">
+
+          <div class="step-number">
+            01
+          </div>
+
+          <strong data-i18n="step1Title">
+            Discover IES
+          </strong>
+
+          <span data-i18n="step1Sub">
+            Learn about the programme
+          </span>
+
+        </div>
+
+
+
+        <div class="journey-step">
+
+          <div class="step-number">
+            02
+          </div>
+
+          <strong data-i18n="step2Title">
+            Check information
+          </strong>
+
+          <span data-i18n="step2Sub">
+            Review official requirements
+          </span>
+
+        </div>
+
+
+
+        <div class="journey-step">
+
+          <div class="step-number">
+            03
+          </div>
+
+          <strong data-i18n="step3Title">
+            Prepare
+          </strong>
+
+          <span data-i18n="step3Sub">
+            Build your application
+          </span>
+
+        </div>
+
+
+
+        <div class="journey-step">
+
+          <div class="step-number">
+            04
+          </div>
+
+          <strong data-i18n="step4Title">
+            Apply
+          </strong>
+
+          <span data-i18n="step4Sub">
+            Take the next step
+          </span>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- Final CTA -->
+
+      <div class="final-cta">
+
+        <h3 data-i18n="finalCtaTitle">
+          Your journey starts with one question.
+        </h3>
+
+
+        <a
+          class="primary-btn"
+          href="https://copernicusberlin.org/ies"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="finalCtaBtn"
+        >
+          Visit official IES page ↗
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- =========================================
+       FOOTER
+  ========================================== -->
+
+<footer class="footer footer-v2">
+
+    <div class="footer-container">
+
+
+      <!-- Brand -->
+
+      <div class="footer-brand">
+
+        <div class="logo">
+
+          <span class="logo-mark">
+            I
+          </span>
+
+          <span>
+            IES <strong>SmartStart</strong>
+          </span>
+
+        </div>
+
+
+        <p data-i18n="footerDesc">
+          An independent student prototype
+          introducing IES and Copernicus Berlin.
+        </p>
+
+      </div>
+
+
+
+      <!-- Footer links -->
+
+      <div class="footer-links">
+
+
+        <div>
+
+          <span
+            class="footer-title"
+            data-i18n="footerCol1Title"
+          >
+            Explore
+          </span>
+
+
+          <a
+            href="#discover"
+            data-i18n="navDiscover"
+          >
+            Discover IES
+          </a>
+
+
+          <a
+            href="#self-check"
+            data-i18n="navSelfCheck"
+          >
+            Self-Check
+          </a>
+
+
+          <a
+            href="#assistant"
+            data-i18n="navAssistant"
+          >
+            FAQ Assistant
+          </a>
+
+        </div>
+
+
+
+        <div>
+
+          <span
+            class="footer-title"
+            data-i18n="footerCol2Title"
+          >
+            Project
+          </span>
+
+
+          <a
+            href="#home"
+            data-i18n="footerProj1"
+          >
+            Concept
+          </a>
+
+
+          <a
+            href="#responsible"
+            data-i18n="footerProj2"
+          >
+            Responsible technology
+          </a>
+
+
+          <a
+            href="#campaign-analysis"
+            data-i18n="footerProj3"
+          >
+            Campaign analysis
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- Source note -->
+
+    <p
+      class="source-note"
+      data-i18n="sourceNote"
+    >
+      Overview based on the IES Skills Challenge brief.
+      Check current application requirements on the official IES page.
+      Examples of contributions are suggestions,
+      not promised placements.
+    </p>
+
+
+
+    <div class="footer-bottom">
+
+      <span>
+        IES SmartStart · Skills Challenge 2026
+      </span>
+
+      <span data-i18n="footerConcept">
+        Not affiliated with or endorsed by Copernicus Berlin
+      </span>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
